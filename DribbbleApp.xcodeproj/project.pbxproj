@@ -22,6 +22,9 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		146834051AC3E58100842450 /* libReact.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 146834041AC3E56700842450 /* libReact.a */; };
+		60E35C6722469403829C935B /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23750BE0D72BAE6CE79200F7 /* SystemConfiguration.framework */; };
+		72D0AE221AB24758CE4C872F /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 60EAC2FEEBD54EC8FF1A09C2 /* AssetsLibrary.framework */; };
+		7345FE984DA9B165F879DCCF /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 81A1B8CE60AB77811540020E /* CoreText.framework */; };
 		832341BD1AAA6AB300B99B32 /* libRCTText.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 832341B51AAA6A8300B99B32 /* libRCTText.a */; };
 		C57100141B71652C00DD1721 /* libRNOverlay.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C57100131B71652600DD1721 /* libRNOverlay.a */; };
 		C57100231B71660C00DD1721 /* BlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = C571001B1B71660C00DD1721 /* BlurView.m */; };
@@ -37,6 +40,8 @@
 		C57100361B71687400DD1721 /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C571002E1B71687400DD1721 /* Octicons.ttf */; };
 		C57100371B71687400DD1721 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = C571002F1B71687400DD1721 /* Zocial.ttf */; };
 		C571004A1B7169F900DD1721 /* libRNVectorIcons.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C57100491B7169ED00DD1721 /* libRNVectorIcons.a */; };
+		D6AE306180269DEF8329F8B4 /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A716A2ECF0048BC55EB2D157 /* BuddyBuildSDK.framework */; };
+		F9E9554568BDEB5BA683AB13 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 402716CB371E0FDA0823D396 /* CoreTelephony.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -153,8 +158,13 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = iOS/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = iOS/main.m; sourceTree = "<group>"; };
 		146833FF1AC3E56700842450 /* React.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = React.xcodeproj; path = "node_modules/react-native/React/React.xcodeproj"; sourceTree = "<group>"; };
+		23750BE0D72BAE6CE79200F7 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		402716CB371E0FDA0823D396 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		60EAC2FEEBD54EC8FF1A09C2 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		78C398B01ACF4ADC00677621 /* RCTLinking.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTLinking.xcodeproj; path = "node_modules/react-native/Libraries/LinkingIOS/RCTLinking.xcodeproj"; sourceTree = "<group>"; };
+		81A1B8CE60AB77811540020E /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		832341B01AAA6A8300B99B32 /* RCTText.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RCTText.xcodeproj; path = "node_modules/react-native/Libraries/Text/RCTText.xcodeproj"; sourceTree = "<group>"; };
+		A716A2ECF0048BC55EB2D157 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
 		C571000E1B71652600DD1721 /* RNOverlay.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = RNOverlay.xcodeproj; path = "node_modules/react-native-modal/node_modules/react-native-overlay/RNOverlay.xcodeproj"; sourceTree = "<group>"; };
 		C571001A1B71660C00DD1721 /* BlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlurView.h; sourceTree = "<group>"; };
 		C571001B1B71660C00DD1721 /* BlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlurView.m; sourceTree = "<group>"; };
@@ -199,6 +209,11 @@
 				139FDEF61B0652A700C62182 /* libRCTWebSocket.a in Frameworks */,
 				C57100141B71652C00DD1721 /* libRNOverlay.a in Frameworks */,
 				C571004A1B7169F900DD1721 /* libRNVectorIcons.a in Frameworks */,
+				D6AE306180269DEF8329F8B4 /* BuddyBuildSDK.framework in Frameworks */,
+				72D0AE221AB24758CE4C872F /* AssetsLibrary.framework in Frameworks */,
+				7345FE984DA9B165F879DCCF /* CoreText.framework in Frameworks */,
+				F9E9554568BDEB5BA683AB13 /* CoreTelephony.framework in Frameworks */,
+				60E35C6722469403829C935B /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,6 +275,18 @@
 				00E356F11AD99517003FC87E /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		113E08ABD97C1C3B25A0A8A4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A716A2ECF0048BC55EB2D157 /* BuddyBuildSDK.framework */,
+				60EAC2FEEBD54EC8FF1A09C2 /* AssetsLibrary.framework */,
+				81A1B8CE60AB77811540020E /* CoreText.framework */,
+				402716CB371E0FDA0823D396 /* CoreTelephony.framework */,
+				23750BE0D72BAE6CE79200F7 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		139105B71AF99BAD00B5F7CC /* Products */ = {
@@ -345,6 +372,7 @@
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* DribbbleAppTests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
+				113E08ABD97C1C3B25A0A8A4 /* Frameworks */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -743,6 +771,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
@@ -764,6 +796,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
