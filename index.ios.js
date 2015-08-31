@@ -40,7 +40,7 @@ var DribbbleApp = React.createClass({
     return (
       <TabBarIOS tintColor={"#ea4c89"}>
         <Icon.TabBarItem
-          title="All"
+          title="Johnny"
           iconName="dribbble"
           selectedIconName="dribbble"
           selected={this.state.selectedTab === "default"}
@@ -49,7 +49,7 @@ var DribbbleApp = React.createClass({
               selectedTab: "default",
             });
           }}>
-          {this._renderContent("default", "All")}
+          {this._renderContent("default", "Johnny")}
         </Icon.TabBarItem>
         <Icon.TabBarItem
           title="Debuts"
